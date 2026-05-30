@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Pay Debug</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        body { 
+            background-color: #17212b; 
+            color: white; 
+            font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 20px;
+        }
+        .debug-info {
+            background-color: rgba(255,255,255,0.1);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="debug-console" class="debug-info"></div>
+    <div id="root"></div>
+    
+    <script>
+        const { React, ReactDOM } = window;
+        const debugConsole = document.getElementById('debug-console');
+
+        function log(message) {
+            console.log(message);
+            debugConsole.innerHTML += `<p>${message}</p>`;
+        }
+
+        function App() {
+            const [count, setCount] = React.useState(0);
+
+            React.useEffect(() => {
+                log('App component mounted');
+                
+                // Telegram WebApp диагностика
+                if (window.Telegram && window.Telegram.WebApp) {
+                    log('Telegram WebApp detected');
+                    try {
+                        window.Telegram.WebApp.ready();
+                        log('WebApp.ready() called successfully');
+                    } catch (e) {
+                        log(`WebApp error: ${e.message}`);
+                    }
+                } else {
+                    log('Telegram WebApp NOT detected');
+                }
+            }, []);
+
+            return React.createElement(
+                'div', 
+                { style: { backgroundColor: '#4a90e2', padding: '20px', borderRadius: '10px' } }, 
+                React.createElement('h1', null, '🚀 Crypto Pay'),
+                React.createElement('p', null, 'Диагностическое приложение'),
+                React.createElement('button', { 
+                    onClick: () => setCount(count + 1),
+                    style: { 
+                        backgroundColor: 'white', 
+                        color: 'black', 
+                        padding: '10px', 
+                        borderRadius: '5px' 
+                    }
+                }, `Клики: ${count}`)
+            );
+        }
+
+        try {
+            log('Начало рендеринга');
+            ReactDOM.createRoot(document.getElementById('root')).render(
+                React.createElement(App)
+            );
+            log('Рендеринг завершен успешно');
+        } catch (e) {
+            log(`Ошибка рендеринга: ${e.message}`);
+        }
+    </script>
+</body>
+</html>
