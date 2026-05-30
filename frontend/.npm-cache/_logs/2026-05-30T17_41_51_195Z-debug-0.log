@@ -1,0 +1,163 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.8.0
+2 info using node@v24.13.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/ilya/tg-crypto-pay/frontend/.npmrc
+5 silly config load:file:/Users/ilya/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "/Users/ilya/tg-crypto-pay/frontend/.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/ilya/tg-crypto-pay/frontend/.npm-cache/_logs/2026-05-30T17_41_51_195Z-
+10 verbose logfile /Users/ilya/tg-crypto-pay/frontend/.npm-cache/_logs/2026-05-30T17_41_51_195Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/bridge'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/navigation'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/sdk'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/signals'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/toolkit'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/transformers'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/types'
+20 silly reify ]
+21 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/node' ]
+22 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/qrcode' ]
+23 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/ansi-regex' ]
+24 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/ansi-styles' ]
+25 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/camelcase' ]
+26 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/cliui' ]
+27 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/color-convert' ]
+28 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/color-name' ]
+29 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/decamelize' ]
+30 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/dijkstrajs' ]
+31 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/emoji-regex' ]
+32 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/find-up' ]
+33 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/get-caller-file' ]
+34 silly reify mark retired [
+34 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/is-fullwidth-code-point'
+34 silly reify ]
+35 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/locate-path' ]
+36 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-limit' ]
+37 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-locate' ]
+38 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-try' ]
+39 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/path-exists' ]
+40 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/pngjs' ]
+41 silly reify mark retired [
+41 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/qrcode',
+41 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/.bin/qrcode'
+41 silly reify ]
+42 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/require-directory' ]
+43 silly reify mark retired [
+43 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/require-main-filename'
+43 silly reify ]
+44 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/set-blocking' ]
+45 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/string-width' ]
+46 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/strip-ansi' ]
+47 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/undici-types' ]
+48 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/which-module' ]
+49 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/wrap-ansi' ]
+50 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/y18n' ]
+51 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/yargs' ]
+52 silly reify mark retired [ '/Users/ilya/tg-crypto-pay/frontend/node_modules/yargs-parser' ]
+53 silly reify moves {
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/bridge': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.bridge-U5pZiwb5',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/navigation': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.navigation-bWxvWa9E',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/sdk': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.sdk-d08anQ21',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/signals': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.signals-nktYEHMh',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/toolkit': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.toolkit-U406Qvjp',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/transformers': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.transformers-Qwd1wmEW',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/types': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@telegram-apps/.types-2qiSKUGN',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/node': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/.node-Itqxlbxz',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/qrcode': '/Users/ilya/tg-crypto-pay/frontend/node_modules/@types/.qrcode-7y4Ingkt',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/ansi-regex': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.ansi-regex-74doKOQj',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/ansi-styles': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.ansi-styles-nBYwRPzF',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/camelcase': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.camelcase-X4pN5BhH',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/cliui': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.cliui-K5mvIdBr',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/color-convert': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.color-convert-w71iVjUu',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/color-name': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.color-name-4jPNXhXD',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/decamelize': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.decamelize-jg1y9ZW5',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/dijkstrajs': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.dijkstrajs-d6zRhj8t',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/emoji-regex': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.emoji-regex-4VrqDrLn',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/find-up': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.find-up-iMw1ZWQK',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/get-caller-file': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.get-caller-file-5ZBOMYbM',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/is-fullwidth-code-point': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.is-fullwidth-code-point-o2tlWsQp',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/locate-path': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.locate-path-xwhfNrqa',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-limit': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.p-limit-9XCMEgZq',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-locate': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.p-locate-xPQsXS3I',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/p-try': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.p-try-dtkVvnED',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/path-exists': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.path-exists-oLafEfYM',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/pngjs': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.pngjs-RbHHf8K4',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/qrcode': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.qrcode-R76l57o5',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/.bin/qrcode': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.bin/.qrcode-zuVN8xjL',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/require-directory': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.require-directory-LurXQVel',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/require-main-filename': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.require-main-filename-Pe7cu60q',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/set-blocking': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.set-blocking-Q4QBT1as',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/string-width': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.string-width-5CABwcOs',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/strip-ansi': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.strip-ansi-RawZwtil',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/undici-types': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.undici-types-ToSJiw2c',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/which-module': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.which-module-hNj2CmWa',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/wrap-ansi': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.wrap-ansi-OjcsS9S8',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/y18n': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.y18n-uMdwUsYn',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/yargs': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.yargs-RRTMVCpy',
+53 silly reify   '/Users/ilya/tg-crypto-pay/frontend/node_modules/yargs-parser': '/Users/ilya/tg-crypto-pay/frontend/node_modules/.yargs-parser-2wLSlCg9'
+53 silly reify }
+54 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+55 silly ADD node_modules/fsevents
+56 silly REMOVE node_modules/yargs-parser
+57 silly REMOVE node_modules/yargs
+58 silly REMOVE node_modules/y18n
+59 silly REMOVE node_modules/wrap-ansi
+60 silly REMOVE node_modules/which-module
+61 silly REMOVE node_modules/undici-types
+62 silly REMOVE node_modules/strip-ansi
+63 silly REMOVE node_modules/string-width
+64 silly REMOVE node_modules/set-blocking
+65 silly REMOVE node_modules/require-main-filename
+66 silly REMOVE node_modules/require-directory
+67 silly REMOVE node_modules/qrcode
+68 silly REMOVE node_modules/pngjs
+69 silly REMOVE node_modules/path-exists
+70 silly REMOVE node_modules/p-try
+71 silly REMOVE node_modules/p-locate
+72 silly REMOVE node_modules/p-limit
+73 silly REMOVE node_modules/locate-path
+74 silly REMOVE node_modules/is-fullwidth-code-point
+75 silly REMOVE node_modules/get-caller-file
+76 silly REMOVE node_modules/find-up
+77 silly REMOVE node_modules/emoji-regex
+78 silly REMOVE node_modules/dijkstrajs
+79 silly REMOVE node_modules/decamelize
+80 silly REMOVE node_modules/color-name
+81 silly REMOVE node_modules/color-convert
+82 silly REMOVE node_modules/cliui
+83 silly REMOVE node_modules/camelcase
+84 silly REMOVE node_modules/ansi-styles
+85 silly REMOVE node_modules/ansi-regex
+86 silly REMOVE node_modules/@types/qrcode
+87 silly REMOVE node_modules/@types/node
+88 silly REMOVE node_modules/@telegram-apps/types
+89 silly REMOVE node_modules/@telegram-apps/transformers
+90 silly REMOVE node_modules/@telegram-apps/toolkit
+91 silly REMOVE node_modules/@telegram-apps/signals
+92 silly REMOVE node_modules/@telegram-apps/sdk
+93 silly REMOVE node_modules/@telegram-apps/navigation
+94 silly REMOVE node_modules/@telegram-apps/bridge
+95 verbose cwd /Users/ilya/tg-crypto-pay/frontend
+96 verbose os Darwin 25.3.0
+97 verbose node v24.13.1
+98 verbose npm  v11.8.0
+99 verbose exit 0
+100 info ok
