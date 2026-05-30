@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple React App</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <style>
+        body { 
+            background-color: #17212b; 
+            color: white; 
+            font-family: Arial, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script>
+        const { React, ReactDOM } = window;
+        
+        function App() {
+            return React.createElement(
+                'div', 
+                { style: { backgroundColor: '#4a90e2', padding: '20px', borderRadius: '10px' } }, 
+                React.createElement('h1', null, '🚀 Crypto Pay'),
+                React.createElement('p', null, 'Минимальное React-приложение')
+            );
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(
+            React.createElement(App)
+        );
+    </script>
+</body>
+</html>
