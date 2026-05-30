@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Page</title>
+    <style>
+        body { 
+            background-color: red; 
+            color: white; 
+            font-family: Arial, sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0; 
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="debug">
+        <h1>🚀 DIAGNOSTIC PAGE</h1>
+        <p>If you see this text, something is working</p>
+        <p>Current time: <span id="time"></span></p>
+    </div>
+
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString();
+        console.log('Page loaded successfully');
+        console.log('Current URL:', window.location.href);
+    </script>
+</body>
+</html>
